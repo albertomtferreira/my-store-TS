@@ -5,7 +5,7 @@ import { signInSuccess,
         signInFailed, 
         signUpSuccess, 
         signUpFailed,
-        singOutSuccess,
+        signOutSuccess,
         signOutFailed,
       } from './user.action';
 import { getCurrentUser, 
@@ -68,7 +68,7 @@ export function* signUp({payload: {email, password, displayName, phoneNumber}}){
 export function* signOut(){
   try{
     yield call(signOutUser)
-    yield put(singOutSuccess())
+    yield put(signOutSuccess())
   }catch(error){
     yield put(signOutFailed(error))
   }
