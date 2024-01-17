@@ -17,11 +17,7 @@ npm install @stripe/react-stripe-js
 npm install stripe 
 npm install dotenv
 
-NEW Install
-npm i --save-dev @types/redux-logger
-npm i --save-dev @types/node
-npm install typed-redux-saga
-npm i --save-dev babel-plugin-macros
+
 
 steps for netlify
 npm install -g netlify-cli
