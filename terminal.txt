@@ -17,8 +17,7 @@ npm install @stripe/react-stripe-js
 npm install stripe 
 npm install dotenv
 
-TYPESCRIPT Update
-npm install typescript @types/node @types/react @types/react-dom @types/jest
+
 
 steps for netlify
 npm install -g netlify-cli
