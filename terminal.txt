@@ -1,17 +1,12 @@
 npx create-react-app my-store
-
 npm install sass
-
 npm install react-router-dom@6
-
 npm install firebase
-
 npm install styled-components
-
 npm install redux react-redux redux-logger
-
 npm install reselect redux-persist redux-thunk redux-saga
 
+STRIPE
 npm install @stripe/stripe-js
 npm install @stripe/react-stripe-js 
 npm install stripe 
@@ -19,14 +14,15 @@ npm install dotenv
 
 TYPESCRIPT Update
 npm install typescript @types/node @types/react @types/react-dom @types/jest
-
-NEW Install
 npm i --save-dev @types/redux-logger
 npm i --save-dev @types/node
 npm install typed-redux-saga
 npm i --save-dev babel-plugin-macros
 
-steps for netlify
+GraphQL
+
+
+NETLIFY
 npm install -g netlify-cli
 netlify login
 netlify dev //to run the server
