@@ -30,3 +30,15 @@ netlify dev //to run the server
 https://aws.amazon.com/codewhisperer/resources/#Getting_started/
 
 https://www.freecodecamp.org/news/how-to-build-a-ecommerce-website-using-next-js-and-planetscale/
+
+PWA - migration
+
+create a template pwa app
+npx create-react-app my-app --template cra-template-pwa-typescript
+Copy the service-worker.js and serviceWorkerRegistration.js file from the new created app and add it into our client/src directory.
+Copy the all the "workbox-*" dependencies from the package.json file in the dependencies section and add it into our client folders package.json dependencies.
+Then re-install your packages using yarn or npm depending on whichever package manager you have been using up to this point!
+
+npm run build
+npm install -g serve
+serve -s build and open on incognito mode
